@@ -1,0 +1,27 @@
+# Ignore Python virtual environment
+.a/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables file
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore model files if any
+*.joblib
+*.pkl
+
+# Ignore Streamlit cache
+.streamlit/
